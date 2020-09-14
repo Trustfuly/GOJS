@@ -65,5 +65,10 @@
   }
 
   body {
-    font-family: 'Acrom';
+    font-family: var(--font-main);
+  }
+
+  .front-page {
+    width: 320px;
+    background: var(--c-dark);
   }
