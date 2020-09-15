@@ -105,7 +105,8 @@
   .navigation {
     width: 100%;
     display: flex;
-    flex-flow: row;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .navigation .logo-link a {
