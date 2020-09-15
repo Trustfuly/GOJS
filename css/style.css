@@ -71,7 +71,7 @@
 /* FRONT PAGE*/
 
   .front-page {
-    width: 340px;
+    min-width: var(--mobile);
     background: var(--c-dark);
     padding: 30px 10px 55px 10px;
     box-sizing: border-box;
@@ -112,6 +112,12 @@
 
   .navigation .logo-link a {
     text-decoration: none;
+  }
+
+  .right-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 
   .hire-me-btn {
