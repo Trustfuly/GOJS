@@ -74,3 +74,19 @@
     padding: 30px 10px 55px 10px;
     box-sizing: border-box;
   }
+
+  .front-page-name {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: var(--txt-c-accent);
+  }
+
+  .front-page-profession {
+
+  }
+
+  .front-page-description {
+
+  }
