@@ -21,7 +21,7 @@
   
     /* container width */
     --vertical-scroll: 20px;
-    --mobile: calc(300px + var(--vertical-scroll));
+    --mobile: calc(355px + var(--vertical-scroll));
     --tablet: calc(640px + var(--vertical-scroll));
     --desktop: calc(900px + var(--vertical-scroll));
     --desktop-lg: calc(1146px + var(--vertical-scroll));
@@ -139,4 +139,5 @@
 
   .mobile-menu i{
     color: var(--txt-c-light);
+    text-decoration: none;
   }
