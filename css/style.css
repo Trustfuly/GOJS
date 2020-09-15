@@ -71,7 +71,7 @@
 /* FRONT PAGE*/
 
   .front-page {
-    width: 320px;
+    width: 375px;
     background: var(--c-dark);
     padding: 30px 10px 55px 10px;
     box-sizing: border-box;
@@ -139,5 +139,4 @@
 
   .mobile-menu i{
     color: var(--txt-c-light);
-    width: 10px;
   }
