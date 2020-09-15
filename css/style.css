@@ -106,6 +106,10 @@
     width: 100%;
   }
 
+  .navigation logo-link{
+    text-decoration: none;
+  }
+
   .hire-me-btn {
     font-style: normal;
     font-weight: 800;
