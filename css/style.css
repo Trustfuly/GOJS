@@ -21,7 +21,8 @@
   
     /* container width */
     --vertical-scroll: 20px;
-    --mobile: calc(355px + var(--vertical-scroll));
+    --mobile: calc(300px + var(--vertical-scroll));
+    --iphone: calc(355px + var(--vertical-scroll));
     --tablet: calc(640px + var(--vertical-scroll));
     --desktop: calc(900px + var(--vertical-scroll));
     --desktop-lg: calc(1146px + var(--vertical-scroll));
@@ -67,11 +68,26 @@
   body {
     font-family: var(--font-main);
   }
+/* COMMOM */
+
+  .accent-btn {
+    background: var(--c-accent);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--c-light);
+    padding: 20px 35px;
+    outline: none;
+    border: none;
+  }
 
 /* FRONT PAGE*/
 
   .front-page {
-    width: var(--mobile);
+    max-width: var(--iphone);
     background: var(--c-dark);
     padding: 30px 10px 55px 10px;
     box-sizing: border-box;
@@ -84,6 +100,7 @@
     text-transform: uppercase;
     text-align: center;
     color: var(--txt-c-accent);
+    margin: 35px 0 10px 0;
   }
 
   .front-page-profession {
@@ -93,6 +110,7 @@
     text-transform: uppercase;
     text-align: center;
     color: var(--txt-c-light);
+    margin-bottom: 20px;
   }
 
   .front-page-description {
@@ -100,6 +118,7 @@
     line-height: 150%;
     text-align: center;
     color: var(--txt-c-light);
+    margin-bottom: 20px;
   }
 
   .navigation {
@@ -114,10 +133,9 @@
     text-decoration: none;
   }
 
-  .right-menu {
+  .navigation-right {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
 
   }
@@ -132,6 +150,7 @@
     text-transform: uppercase;
     color: var(--txt-c-accent);
     text-decoration: none;
+    margin: 0 20px 0 0;
   }
 
   .mobile-menu {
@@ -150,3 +169,21 @@
     color: var(--txt-c-light);
     text-decoration: none;
   }
+
+  .front-page-gallery-btn {
+    margin-bottom: 40px;
+  }
+
+  .front-page-my-photo {
+    width: 100px;
+  }
+
+  .front-page-my-decr {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
