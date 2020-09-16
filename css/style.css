@@ -67,6 +67,7 @@
 
   body {
     font-family: var(--font-main);
+    align-content: center;
   }
 /* COMMOM */
 
@@ -92,7 +93,6 @@
     background: var(--c-dark);
     padding: 30px 10px 55px 10px;
     box-sizing: border-box;
-    align-self: center;
   }
 
   .front-page-name {
