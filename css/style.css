@@ -221,6 +221,7 @@ body {
 
 .front-page-laptop {
   width: 250px;
+  margin: 0 0 40px 0; 
 }
 
 /* EXPERIENCE */
@@ -272,7 +273,13 @@ body {
 
 /* ABOUT PAGE */
 
+.about {
+  min-width: var(--mobile);
+  max-width: var(--iphone);
+}
+
 .about-title {
+  
   color: var(--txt-c-dark);
   text-align: left;
   width: 280px;
@@ -338,6 +345,9 @@ body {
 
 .personal-projects {
   background: var(--c-dark);
+  min-width: var(--mobile);
+  max-width: var(--iphone);
+  }
 }
 
 .personal-project-item-container {
@@ -405,6 +415,11 @@ body {
 }
 
 /* TEAM PROJECT */
+
+.team-projects {
+  min-width: var(--mobile);
+  max-width: var(--iphone);
+}
 
 .team-projects .container {
   position: relative;
