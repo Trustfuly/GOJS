@@ -244,6 +244,10 @@
     margin-right: 10px;
   }
 
+  .fa-circle {
+    font-size: 8px;
+  }
+
   .experience-dots-items{
     color: var(--c-grey-blue);
     font-size: 7px;
