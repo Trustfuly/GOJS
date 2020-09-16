@@ -374,12 +374,13 @@ body {
   margin-top: 20px;
 }
 
-/* .project-item-dot-container {
+.project-item-dot-container {
   display: flex;
-  position: absolute;
-  top: 17px;
-  left: 20px;
-} */
+  /* position: absolute; */
+  margin-top: 17px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
 
 .personal-project-item {
   border-bottom: 1px solid var(--c-grey-blue);
@@ -390,7 +391,7 @@ body {
   margin-bottom: 0;
 }
 
-.projet-item-dot {
+.project-item-dot {
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -398,7 +399,7 @@ body {
   margin-right: 7px;
 }
 
-.projet-item-dot:first-child {
+.project-item-dot:first-child {
   background: var(--c-accent);
 }
 
