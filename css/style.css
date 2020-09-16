@@ -460,3 +460,29 @@ body {
 .team-project-item:last-child {
   margin-bottom: 0;
 }
+
+/* CALLBACK FORM */
+
+.callback-form {
+  min-width: var(--mobile);
+  max-width: var(--iphone);
+}
+
+.callback-form-container {
+  background: var(--c-dark);
+  padding: 35px 30px 40px 30px;
+}
+
+.callback-form-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--txt-c-light);
+}
+
+.callback-form-descr{
+  color: var(--txt-c-light);
+
+}
