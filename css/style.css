@@ -374,12 +374,12 @@ body {
   margin-top: 20px;
 }
 
-.project-item-dot-container {
+/* .project-item-dot-container {
   display: flex;
   position: absolute;
   top: 17px;
   left: 20px;
-}
+} */
 
 .personal-project-item {
   border-bottom: 1px solid var(--c-grey-blue);
