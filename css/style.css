@@ -244,23 +244,24 @@
     margin-right: 10px;
   }
 
-  .fa-circle {
+  /* .fa-circle {
     font-size: 8px;
-  }
+    margin-right: 5px;
+  } */
 
-  .experience-dots-items{
+  .experience-dots-item {
     color: var(--c-grey-blue);
-    font-size: 7px;
+    font-size: 8px;
     margin-right: 5px;
   }
 
-  .expeerience-dots-item-accent {
+  .experience-dots-item-accent {
     color: var(--c-accent);
 
   }
 
   .experience-text {
-    color: var(--txt-c-light);
+    color: var(--txt-c-grey-light);
     font-size: 16px;
     line-height: 19px;
     margin: 0;
