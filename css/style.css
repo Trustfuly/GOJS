@@ -627,20 +627,10 @@ body {
   max-width: var(--iphone);
 }
 
-.footer .container {
-  padding: 0;
-
-}
-
-.footer-title {
-  padding: 30px 30px 20px 30px;
-}
-
 .footer-my-name {
   font-weight: bold;
   font-size: 17px;
   line-height: 150%;
-  text-align: center;
   color: var(--txt-c-dark);
   margin: 0;
 }
@@ -649,39 +639,35 @@ body {
   font-weight: normal;
   font-size: 17px;
   line-height: 150%;
-  text-align: center;
   color: var(--txt-c-dark);
-  margin: 0;
+  margin: 0 0 20px 0;
 }
 
 .footer-call-me {
   font-weight: bold;
   font-size: 17px;
   line-height: 150%;
-  text-align: center;
   color: var(--txt-c-dark);
   text-decoration: none;
-  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .footer-mail-me {
   font-weight: normal;
   font-size: 17px;
   line-height: 150%;
-  text-align: center;
   color: var(--txt-c-dark);
   text-decoration: none;
-}
-
-.footer-social {
-  display: flex;
-  padding: 30px 60px 48px 60px;
+  margin-bottom: 30px;
 }
 
 .footer-social-btn {
   font-size: 25px;
+  margin-right: 35px;
   color: var(--c-dark);
   text-decoration: none;
-  /* padding-right: 33px; */
-  padding: 16px;
+}
+
+.footer-social-btn:last-child {
+  margin-right: 0;
 }
