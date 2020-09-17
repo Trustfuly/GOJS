@@ -484,5 +484,8 @@ body {
 
 .callback-form-descr{
   color: var(--txt-c-light);
-
+  font-size: 17px;
+  line-height: 150%;
+  text-align: center;
+  
 }
