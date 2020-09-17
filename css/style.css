@@ -680,9 +680,8 @@ body {
 
 .footer-social-btn {
   font-size: 25px;
-  color: var(--txt-c-dark);
+  color: var(--c-dark);
   text-decoration: none;
   /* padding-right: 33px; */
   padding: 16px;
-
 }
