@@ -620,6 +620,8 @@ body {
   margin: 0;
 }
 
+/* FOOTER */
+
 .footer {
   min-width: var(--mobile);
   max-width: var(--iphone);
