@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/choices.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style-examle.css">
     <title>My Awesome Site</title>
 </head>
 
@@ -265,40 +265,40 @@
                 <div class="calculator-form-input">
                     <label for="calculator-form-website-type" class="calculator-form-title">What should be done: </label>
                     <select name="website-type" id="calculator-form-website-type" class="calculator-form-select">
-                        <option value="landing-page">Landing page</option>
-                        <option value="web-site" selected>Website</option>
-                        <option value="cms">CMS</option>
-                        <option value="portal">Portal</option>
-                        <option value="e-shop">E-shop</option>
+                        <option value="landing-page:500">Landing page</option>
+                        <option value="web-site:1000" selected>Website</option>
+                        <option value="cms:2000">CMS</option>
+                        <option value="portal:5000">Portal</option>
+                        <option value="e-shop:1500">E-shop</option>
                     </select>
                 </div>
                 <div class="calculator-form-input">
                     <label for="" class="calculator-form-title">Choose preferred technologies</label>
-                    <select name="technologies" id="calculator-form-technologies" class="calculator-form-select">
-                        <option value="css">CSS</option>
-                        <option value="html" selected>HTML</option>
-                        <option value="js">JS</option>
-                        <option value="react">React</option>
-                        <option value="angular">Angular</option>
-                        <option value="php">PHP</option>
+                    <select name="technologies" id="calculator-form-technologies" class="calculator-form-select" multiple>
+                        <option selected value="css:500">CSS</option>
+                        <option selected value="html:400" selected>HTML</option>
+                        <option selected value="js:700">JS</option>
+                        <option value="react:1000">React</option>
+                        <option value="angular:1000">Angular</option>
+                        <option value="php:2000">PHP</option>
                     </select>
                 </div>
 
-                <div class="calculator-form-input">
+                <div class="calculator-form-input choices__input">
                     <label for="" class="calculator-form-title">Personal account and shopping cart:</label>
-                    <div class="calculator-form-input-radio-container">
-                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-cart-yes" name="cart-yes">
+                    <div class="calculator-form-input-radio-container" id="calculator-form-input-cart">
+                        <input checked type="radio" class="calculator-form-input-field choices__item" id="calculator-form-input-cart-yes" name="cart" value="yes">
                         <label for="calculator-form-input-cart-yes" class="calculator-form-input-label">Yes</label>
-                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-cart-no" name="cart-no">
+                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-cart-no" name="cart" value="no">
                         <label for="calculator-form-input-cart-yes" class="calculator-form-input-label">No</label>
                     </div>
                 </div>
                 <div class="calculator-form-input">
                 <label for="" class="calculator-form-title">Requests reception on your email:</label>
-                    <div class="calculator-form-input-radio-container">
-                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-reception-yes" name="reception-yes">
+                    <div class="calculator-form-input-radio-container" id="calculator-form-input-reception">
+                        <input checked type="radio" class="calculator-form-input-field" id="calculator-form-input-reception-yes" name="reception" value="yes">
                         <label for="calculator-form-input-reception-yes" class="calculator-form-input-label">Yes</label>
-                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-reception-no" name="reception-no">
+                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-reception-no" name="reception" value="no">
                         <label for="calculator-form-input-reception-yes" class="calculator-form-input-label">No</label>
                     </div>
                 </div>
@@ -324,5 +324,7 @@
             </div>       
         </div>
     </footer>
+    <script src="js/choices.min.js"></script>
+    <script src="js/calculator.js"></script>
 </body>
 </html>
