@@ -13,6 +13,10 @@
   --txt-c-grey-light: var(--c-grey-light);
   --txt-c-accent: var(--c-accent);
   --txt-c-light: var(--c-light);
+
+  /* modals */
+  --modal-bd-dark: rgba(20, 29, 45, 0.8);
+
   /* font */
   --font-main: 'Acrom', sans-serif;
   /* container width */
@@ -110,6 +114,7 @@ body {
   transition: all 0.3s ease-in-out;
   pointer-events: none;
   display: block;
+  background: var(--modal-bd-dark);
 }
 
 .modal-active {
@@ -117,13 +122,24 @@ body {
   opacity: 1;
 }
 
-.modal-close-btn{
+.modal-close-btn {
   position: absolute;
   font-size:18px;
   top: 16px;
   right: 16px;
   color: var(--c-grey-blue);
   cursor: pointer;
+}
+
+.front-page-my-video-btn {
+  cursor: pointer;
+}
+
+.modal-video-close-btn {
+  border-radius: 3px;
+  padding: 10px 14px;
+  background: var(--c-grey-light);
+  color: var(--c-grey-blue);
 }
 
 .mobile-menu-close-btn{
@@ -141,6 +157,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+
+.body-scroll-disable {
+  overflow: hidden;
 }
 
 .mobile-menu-container {
@@ -165,6 +185,18 @@ body {
   text-decoration: none;
   color: var(--txt-c-grey);
   
+}
+
+.my-video-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+.modal-video-player {
+  width: 100%;
 }
 
 .mobile-menu-contacts {
