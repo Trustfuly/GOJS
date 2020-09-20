@@ -57,6 +57,7 @@
 
 html {
   scroll-behavior: smooth;
+  -moz-overflow-scrolling: touch;
   -webkit-overflow-scrolling: touch;
 }
 
