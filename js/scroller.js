@@ -1,4 +1,22 @@
-<script>
+
+Есть еще стандартный способ плавной прокрутки Element.scrollIntoView().
+
+const anchors = document.querySelectorAll('a[href*="#"]')
+
+for (let anchor of anchors) {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault()
+    
+    const blockID = anchor.getAttribute('href').substr(1)
+    
+    document.getElementById(blockID).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
+  })
+}
+
+/* <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
@@ -23,4 +41,4 @@ $(document).ready(function(){
     } // End if
   });
 });
-</script>
+</script> */
