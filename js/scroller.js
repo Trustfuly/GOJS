@@ -13,14 +13,8 @@ for (let anchor of anchors) {
   })
 }
 
-<<<<<<< HEAD
 /* <script>
 $(document).ready(function(){
-=======
-
-//<script>
-//$(document).ready(function(){
->>>>>>> 58f5634fedcb343908f50bae3d43b4f20edc0bb9
   // Add smooth scrolling to all links
 //  $("a").on('click', function(event) {
 
