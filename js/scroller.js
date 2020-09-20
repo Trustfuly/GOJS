@@ -1,4 +1,4 @@
-const anchors = document.querySelectorAll('a[href*="#"]')
+const anchors = document.querySelectorAll('a[href="#"]')
 
 for (let anchor of anchors) {
   anchor.addEventListener('click', function (e) {
@@ -33,18 +33,9 @@ $(document).ready(function(){
 //      }, 800, function(){
 
         // Add hash (#) to URL when done scrolling (default click behavior)
-<<<<<<< HEAD
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script> */
-=======
 //        window.location.hash = hash;
 //      });
 //    } // End if
 //  });
 //});
 //</script>
->>>>>>> 58f5634fedcb343908f50bae3d43b4f20edc0bb9
