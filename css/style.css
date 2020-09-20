@@ -55,11 +55,11 @@
   font-style: normal;
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
   -moz-overflow-scrolling: touch;
   -webkit-overflow-scrolling: touch;
-}
+} */
 
 body {
   font-family: var(--font-main);
