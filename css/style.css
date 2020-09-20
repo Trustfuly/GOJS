@@ -379,7 +379,7 @@ body {
 
 .front-page {
   min-width: var(--mobile);
-  max-width: var(--iphone);
+  /* max-width: var(--iphone); */
   background: var(--c-dark);
   padding: 30px 10px 55px 10px;
   box-sizing: border-box;
@@ -555,7 +555,7 @@ body {
 
 .about {
   min-width: var(--mobile);
-  max-width: var(--iphone);
+  /* max-width: var(--iphone); */
 }
 
 .about-title {
@@ -625,7 +625,7 @@ body {
 .personal-projects {
   background: var(--c-dark);
   min-width: var(--mobile);
-  max-width: var(--iphone);
+  /* max-width: var(--iphone); */
 }
 
 .personal-project-item-container {
@@ -744,7 +744,7 @@ body {
 
 .callback-form {
   min-width: var(--mobile);
-  max-width: var(--iphone);
+  /* max-width: var(--iphone); */
 }
 
 .callback-form-container {
@@ -792,7 +792,7 @@ body {
 
 .calculator {
   min-width: var(--mobile);
-  max-width: var(--iphone);
+  /* max-width: var(--iphone); */
   background: var(--c-dark);
 }
 
@@ -946,7 +946,7 @@ body {
 
 .footer {
   min-width: var(--mobile);
-  max-width: var(--iphone);
+  /* max-width: var(--iphone); */
 }
 
 .footer-my-name {
