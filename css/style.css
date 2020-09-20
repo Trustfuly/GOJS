@@ -13,10 +13,8 @@
   --txt-c-grey-light: var(--c-grey-light);
   --txt-c-accent: var(--c-accent);
   --txt-c-light: var(--c-light);
-
   /* modals */
   --modal-bd-dark: rgba(20, 29, 45, 0.8);
-
   /* font */
   --font-main: 'Acrom', sans-serif;
   /* container width */
@@ -107,7 +105,7 @@ body {
 }
 
 .modal {
-  position:fixed;
+  position: fixed;
   top: 0;
   left: 0;
   height: 100%;
@@ -126,7 +124,7 @@ body {
 
 .modal-close-btn {
   position: absolute;
-  font-size:18px;
+  font-size: 18px;
   top: 16px;
   right: 16px;
   color: var(--c-grey-blue);
@@ -144,7 +142,7 @@ body {
   color: var(--c-grey-blue);
 }
 
-.mobile-menu-close-btn{
+.mobile-menu-close-btn {
   background: var(--c-accent);
   color: var(--txt-c-light);
   padding: 10px 14px;
@@ -174,7 +172,7 @@ body {
 .mobile-menu-items {
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
 }
 
 .mobile-menu-item {
@@ -186,7 +184,6 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: var(--txt-c-grey);
-  
 }
 
 .my-video-container {
@@ -870,9 +867,7 @@ body {
   padding: 5px 0 17px 0;
 }
 
-
 /* MULTI SELECT */
-
 
 .calculator-form-input .tech-input-container .choices__item {
   background: var(--c-accent);
@@ -894,7 +889,7 @@ body {
   font-weight: 900;
 }
 
-.calculator-form-input .tech-input-container  {
+.calculator-form-input .tech-input-container {
   background: transparent;
   border-radius: 0;
   border: none;
