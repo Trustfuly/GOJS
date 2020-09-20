@@ -51,6 +51,10 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-main);
 }
@@ -94,6 +98,96 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: var(--txt-c-light);
+}
+
+.modal {
+  position:fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+  display: block;
+}
+
+.modal-active {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.modal-close-btn{
+  position: absolute;
+  font-size:18px;
+  top: 16px;
+  right: 16px;
+  color: var(--c-grey-blue);
+  cursor: pointer;
+}
+
+.mobile-menu-close-btn{
+  background: var(--c-accent);
+  color: var(--txt-c-light);
+  padding: 10px 14px;
+}
+
+.modal-mobile-menu {
+  background: var(--c-light)
+}
+
+.modal-mobile-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.mobile-menu-container {
+  height: 70%;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.mobile-menu-items {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.mobile-menu-item {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 35px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--txt-c-grey);
+  
+}
+
+.mobile-menu-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-call-me {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 150%;
+  color: var(--txt-c-dark);
+  text-decoration: none;
+}
+
+.modal-mail-me {
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 150%;
+  color: var(--txt-c-dark);
+  text-decoration: none;
+  margin-bottom: 5px;
 }
 
 /* FRONT PAGE*/

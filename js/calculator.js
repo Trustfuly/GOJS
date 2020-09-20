@@ -61,7 +61,6 @@ function renderSum(sum) {
         costElement.textContent = sum + '$';
     }, 2000);
 
-
 }
 
 function convertCartOptionToPrice(option) {

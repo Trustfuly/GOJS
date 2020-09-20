@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .modal {
+            display: none;
+        }
+    </style>
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/choices.min.css">
@@ -99,7 +104,7 @@
             </div>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container container-left">
             <h3 class="section-title about-title">I code things from scratch_</h3>
             <p class="about-descr">
@@ -125,7 +130,7 @@
         </div>
     </section>
 
-    <section class="personal-projects">
+    <section class="personal-projects" id="projects">
         <div class="container">
             <h3 class="section-title personal-projects-title">My personal _projects</h3>
             <div class="personal-project-item">
@@ -194,7 +199,7 @@
             </div>
         </div>
     </section>
-    <section class="team-projects">
+    <section class="team-projects" id="team-projects">
         <div class="container">
             <span class="team-projects-title-bgd">TEAM</span>
             <h3 class="section-title team-projects-title">
@@ -246,7 +251,7 @@
             </form>
         </div>
     </section>
-    <section class="calculator">
+    <section class="calculator" id="calculator">
         <div class="container">
             <h3 class="calculator-title section-title">
                 Calculate_ the cost of a future project
@@ -310,7 +315,7 @@
             </form>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer"  id="contacts">
         <div class="container">
                 <h3 class="footer-my-name">Elijah Cooper</h3>
                 <p class="footer-job-title">Frontend Developer</p>
@@ -324,6 +329,31 @@
             </div>       
         </div>
     </footer>
+
+    <!-- MODALS -->
+
+    <div class="modals-wrapper">
+        <!-- MOBILE MENU -->
+        <div class="modal modal-active modal-mobile-menu">
+            <div class="modal-mobile-content">
+                <div class="container mobile-menu-container">
+                    <i class="fas fa-times modal-close-btn mobile-menu-close-btn"></i>
+                    <nav class="mobile-menu-items">
+                        <a href="#about" class="mobile-menu-item">ABOUT</a>
+                        <a href="#projects" class="mobile-menu-item">PROJECTS</a>
+                        <a href="#team-projects" class="mobile-menu-item">TEAM PROJECTS</a>
+                        <a href="#calculator" class="mobile-menu-item">COST CALCULATOR</a>
+                        <a href="#contacts" class="mobile-menu-item">CONTACTS</a>
+                    </nav>
+                    <div class="mobile-menu-contacts">
+                        <a href="tel:380675007532" class="modal-call-me">+38 (067) 500-75-32</a>
+                        <a href="mailto:bondarillua@gmail.com" class="modal-mail-me">bondarillua@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="js/choices.min.js"></script>
     <script src="js/calculator.js"></script>
 </body>
