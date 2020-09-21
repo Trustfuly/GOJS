@@ -54,7 +54,7 @@ callbackForm.addEventListener('submit', function(event){
 
     setTimeout(function() {
         requestReceivedModal.classList.remove('modal-active');
-    }, 2000);
+    }, 10000);
 });
 
 function isPhoneValid(phone = '') {
