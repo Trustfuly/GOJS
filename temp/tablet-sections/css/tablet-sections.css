@@ -1,0 +1,64 @@
+.about .container {
+  position: relative;
+}
+
+.about-img-text {
+  position: absolute;
+  right: 22px;
+  top: 228px;
+  font-size: 200px;
+  line-height: 240px;
+}
+
+.about-img {
+  width: 361px;
+  height: 390px;
+  left: -105px;
+  top: 70px;
+}
+
+.about-img-container {
+  margin-bottom: 0;
+}
+
+.about-title {
+  font-size: 50px;
+  line-height: 60px;
+  width: 600px;
+}
+
+.about-descr {
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 60px;
+}
+
+.about-text:last-child {
+  width: 320px;
+  margin-bottom: 84px;
+}
+
+.team-projects-title,
+.personal-projects-title {
+  text-align: left;
+  width: 400px;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.team-project-item,
+.personal-project-item {
+  margin: 0 25px 40px 25px;
+}
+
+.callback-form .container,
+.personal-projects .container,
+.team-projects .container {
+  align-items: normal;
+}
+
+.team-projects-title-bgd {
+  font-size: 200px;
+  line-height: 240px;
+  top: 19px;
+}

@@ -31,13 +31,19 @@
             </div>
         </nav>
         <h1 class="front-page-name">[Elijah Cooper]</h1>
-        <h2 class="front-page-profession">{Frontend} _DEVELOPER</h2>
+        <h2 class="front-page-profession"><span class="frontend">{Frontend}</span> <span class="developer">_DEVELOPER</span></h2>
         <p class="front-page-description">/ Using HTML, CSS, JavaScript, React Native and Node.js I help to build
             websites, small and medium web apps for business</p>
         <button class="front-page-gallery-btn accent-btn">See my recent works —</button>
-        <img src="img/my-photo.jpg" alt="" class="front-page-my-photo">
-        <p class="front-page-my-decr">About me in 2 minutes</p>
-        <button class="front-page-my-video-btn" id="my-video-btn"><i class="fas fa-play"></i>PLAY</button>
+        <div class="front-page-my-info">
+            <img src="img/my-photo.jpg" alt="my photo" class="front-page-my-photo">
+            <div class="front-page-about-me-container">
+                <p class="front-page-my-decr mobile-element">About me in 2 minutes</p>
+                <p class="front-page-my-decr tablet-element">About me </br>in 2 minutes</p>
+                <p class="front-page-my-decr desktop-element">About me in 2 minutes</p>
+                <button class="front-page-my-video-btn" id="my-video-btn"><i class="fas fa-play"></i>PLAY</button>
+            </div>
+        </div>
         <img src="img/laptop.svg" alt="" class="front-page-laptop">
         <div class="experience-container">
             <h3 class="experience-title">My Coding Skills &</br> Experience</h3>
@@ -118,9 +124,14 @@
                     <img src="img/web-apps-laptop.png" alt="web apps laptop" class="about-img" />
                 </p>
             </div>
-            <p class="about-text">
+            <p class="about-text mobile-element">
                 / I will help you to create a high-performance Landing Page, functional
                 corporate website for your business, interactive web app for SaaS,
+                startup, or other services.
+            </p>
+            <p class="about-text tablet-element">
+                / I will help you to create a </br>high-performance Landing Page, </br>functional
+                corporate website for your </br>business, interactive web app for </br>SaaS,
                 startup, or other services.
             </p>
             <p class="about-text">
