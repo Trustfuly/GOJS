@@ -1043,7 +1043,7 @@ input[type='radio']:checked {
 
   .container {
     padding-bottom: 70px;
-    min-width: 640px;
+    min-width: 620px;
   }
 
   .mobile-element {
