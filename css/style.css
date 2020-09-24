@@ -1058,6 +1058,10 @@ input[type='radio']:checked {
     display: none;
   }
 
+  .mobile-menu-container {
+    overflow-y: auto;
+  }
+
   .front-page-name {
     font-size: 36px;
     line-height: 43px;
