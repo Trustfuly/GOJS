@@ -360,6 +360,7 @@ body {
 } */
 
 .mobile-menu-contacts {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1060,6 +1061,10 @@ input[type='radio']:checked {
 
   .mobile-menu-container {
     overflow-y: auto;
+  }
+
+  .mobile-menu-contacts {
+    position: relative;
   }
 
   .front-page-name {
