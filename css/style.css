@@ -1060,11 +1060,11 @@ input[type='radio']:checked {
   }
 
   .mobile-menu-container {
+    height: 100%;
     overflow-y: auto;
   }
 
   .mobile-menu-contacts {
-    position: relative;
     margin-top: 10px;
   }
 
