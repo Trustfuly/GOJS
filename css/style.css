@@ -1195,6 +1195,25 @@ input[type='radio']:checked {
     line-height: 240px;
     top: 19px;
   }
+
+  .callback-form-title {
+    font-size: 36px;
+    line-height: 43px;
+    width: 386px;
+  }
+
+  .callback-form-descr {
+    width: 356px;
+  }
+
+  .callback-form-input {
+    width: 356px;
+  }
+
+  .callback-form-submit {
+    width: 356px;
+    margin: 0;
+  }
   
 }
 
