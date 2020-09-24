@@ -1208,11 +1208,11 @@ input[type='radio']:checked {
 
   .callback-form-input {
     width: 356px;
+    box-sizing: border-box;
   }
-
+  .accent-btn,
   .callback-form-submit {
     width: 356px;
-    margin: 0;
   }
   
 }
