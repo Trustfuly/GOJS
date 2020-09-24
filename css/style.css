@@ -1065,6 +1065,7 @@ input[type='radio']:checked {
 
   .mobile-menu-contacts {
     position: relative;
+    margin-top: 10px;
   }
 
   .front-page-name {
