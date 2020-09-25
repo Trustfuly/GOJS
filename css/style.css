@@ -1272,7 +1272,7 @@ input[type='radio']:checked {
 
   /* FOOTER SECTION*/
 
-  .footer .container {
+  .footer .tablet-element{
     display: flex;
     flex-direction: row;
     justify-content: space-between;  
