@@ -59,6 +59,10 @@ body {
 
 /* COMMON */
 
+.mobile-element {
+  display: block;
+  }
+
 .tablet-element {
   display: none;
 }
@@ -463,11 +467,13 @@ body {
   margin: 0 20px 0 0;
 }
 
-.mobile-menu {
+
+.mobile-menu .mobile-element,
+.mobile-menu .tablet-element {
   width: 30px;
   height: 30px;
   background: var(--txt-c-accent);
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   flex-direction: row;
@@ -1050,6 +1056,10 @@ input[type='radio']:checked {
     display: none;
   }
 
+  .mobile-menu .mobile-element {
+    display: flex;
+  }
+
   .front-page-my-info {
     display: flex;
     flex-direction: column;
@@ -1089,6 +1099,10 @@ input[type='radio']:checked {
 
   .mobile-menu-container {
     overflow-y: auto;
+  }
+
+  .mobile-menu {
+    display: flex;
   }
 
   .front-page-name {
