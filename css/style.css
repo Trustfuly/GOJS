@@ -699,6 +699,8 @@ body {
 
 .personal-projects-title {
   margin-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .project-item-dot-container {
