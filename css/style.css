@@ -27,6 +27,7 @@
   /* animation */
   --animation-fast: 0.1s;
   --animation-slow: 0.3s;
+  --animation-transition: all 0.2s ease-in-out;
 }
 
 @font-face {
@@ -81,10 +82,16 @@ body {
   text-transform: uppercase;
   color: var(--c-light);
   padding: 20px 35px;
-  outline: none;
+  outline: 1px solid var(--c-accent);
   border: none;
   cursor: pointer;
   text-decoration: none;
+  transition: var(--animation-transition);
+}
+
+.accent-btn:hover {
+  background: transparent;
+  color: var(--txt-c-accent);
 }
 
 .container {
@@ -140,6 +147,12 @@ body {
 
 .front-page-my-video-btn {
   cursor: pointer;
+  transition: var(--animation-transition);
+}
+
+.front-page-my-video-btn:hover {
+  color: var(--txt-c-light);
+  background: var(--c-accent);
 }
 
 .modal-video-close-btn {
@@ -191,6 +204,11 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: var(--txt-c-grey);
+}
+
+.mobile-menu-item:hover {
+  color: var(--txt-c-accent);
+  border-bottom: 2px solid var(--txt-c-accent);
 }
 
 .my-video-container {
@@ -446,6 +464,11 @@ body {
 
 .navigation .logo-link a {
   text-decoration: none;
+  transition: var(--animation-transition);
+}
+
+.logo-link:hover {
+  transform: scale(1.1);
 }
 
 .navigation-right {
@@ -1558,12 +1581,19 @@ input[type='radio']:checked {
   text-transform: uppercase;
   text-decoration: none;
   color: var(--txt-c-grey);
+  transition: var(--animation-transition);
 }
 
 .desktop-menu-item:last-child {
   font-size: 15px;
   line-height: 18px;
   margin-right: 0;
+}
+
+.desktop-menu-item:hover {
+  color: var(--txt-c-accent);
+  border-bottom: 2px solid var(--txt-c-accent);
+  margin-bottom: 2px;
 }
 
 .about-title {
