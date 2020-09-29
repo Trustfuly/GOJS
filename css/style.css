@@ -1108,6 +1108,50 @@ input[type='radio']:checked {
   margin-right: 0;
 }
 
+.back2top {
+  display: flex;
+flex-direction: row;
+align-items: center;
+bottom: 50px;
+  right: 10px;
+}
+
+
+#back2Top {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background: transparent;
+  border: 1px solid var(--c-accent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#back2Top i {
+  color: var(--txt-c-accent);
+  text-decoration: none;
+}
+
+#back2Top i:hover {
+  color: var(--txt-c-light);
+  text-decoration: none;
+}
+
+#back2Top:hover {
+  background: var(--c-accent);
+} 
+
 @media only screen and (min-width: 300px) {
   .tablet-element {
     display: none;
