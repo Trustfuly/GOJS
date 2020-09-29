@@ -671,6 +671,12 @@ body {
 
 /* PERSONAL PROJECT */
 
+.swiper-container {
+  width: 300px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
 .personal-projects {
   background: var(--c-dark);
   min-width: var(--mobile);
@@ -1426,6 +1432,10 @@ input[type='radio']:checked {
     flex-direction: column;
   }
 
+  .swiper-container {
+    width: 500px;
+  }
+
 }
 
 @media only screen and (min-width: 1000px) {
@@ -1827,6 +1837,10 @@ input[type='radio']:checked {
 
 .project-modal-container {
   padding: 95px;
+}
+
+.swiper-container {
+  width: 900px;
 }
 
 }
