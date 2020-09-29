@@ -1098,16 +1098,16 @@ input[type='radio']:checked {
 
 @media only screen and (min-width: 300px) {
 
-  .mobile-element {
-    display: block;
-  }
-
   .tablet-element {
     display: none;
   }
 
   .desktop-element {
     display: none;
+  }
+  
+  .mobile-element {
+    display: block;
   }
 
   .front-page-my-info {
