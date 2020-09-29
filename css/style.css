@@ -674,8 +674,6 @@ body {
 .personal-projects {
   background: var(--c-dark);
   min-width: var(--mobile);
-  width: 100%;
-  box-sizing: border-box;
   /* max-width: var(--iphone); */
 }
 
@@ -701,6 +699,8 @@ body {
 
 .personal-projects-title {
   margin-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .project-item-dot-container {
