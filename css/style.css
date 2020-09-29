@@ -1176,6 +1176,7 @@ input[type='radio']:checked {
 
   .mobile-menu-contacts.tablet-element {
     display: flex;
+    margin-bottom: 50px;
   }
 
   .front-page-name {
